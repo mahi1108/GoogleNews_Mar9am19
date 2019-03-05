@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/tv1"
+            android:text="News Title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#FF0000"/>
+
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/rlayout">
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/iview"
+                android:src="@drawable/ic_launcher_background"/>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="News Description"
+                android:id="@+id/tv_desc"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
